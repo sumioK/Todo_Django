@@ -1,5 +1,5 @@
 from django.urls import path, include
-from .view import TodoList
+from .views import TodoList
 
 urlpatterns = [
     path('list/', TodoList.as_view()),
